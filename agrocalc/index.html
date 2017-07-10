@@ -2,18 +2,19 @@
 <html>
 
   <head>
+    <meta charset="UTF-8">
     <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
   </head>
 
   <body>
     <h1>АгроКалькулятор</h1>
     <form name="myForm">
-    <select id="selectCultura" name="cultura">
+    <select id="selectCultura" name="cultura" onchange="getSelectValue()">
         <option value="tomat" selected="selected">Томаты</option>
         <option value="og">Огурцы</option>
     </select>
-</form>
-    <script src="script.js"></script>
+    </form>
   </body>
 
 </html>
